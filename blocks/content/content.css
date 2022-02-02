@@ -1,0 +1,11 @@
+.content {
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas:
+    ". lead ."
+    ". intro ."
+    "photo-grid photo-grid photo-grid"
+    ". places ."
+    "cover cover cover";
+}
