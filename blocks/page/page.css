@@ -1,9 +1,7 @@
 .page {
-  margin: auto;
-  width: 1280px;
   box-sizing: border-box;
   background: #2A2C2F;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 @media screen and (min-width: 1280px) {
@@ -12,26 +10,20 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .page {
-    min-width: 1024px;
+    padding: 28px 0 24px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .page {
-    min-width: 768px;
+    padding: 28px 0 24px;
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 424px) {
   .page {
-    min-width: 768px;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 425px) {
-  .page {
-    min-width: 320px;
+    padding: 16px 0 24px;
   }
 }
