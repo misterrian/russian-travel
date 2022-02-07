@@ -6,4 +6,14 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+  .cover__subtitle {
+    width: 265px;
+    font-size: 14px;
+    line-height: 16px;
+  }
 }

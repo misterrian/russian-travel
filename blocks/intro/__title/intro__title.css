@@ -4,4 +4,13 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

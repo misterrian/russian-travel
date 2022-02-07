@@ -4,4 +4,11 @@
   align-items: center;
   justify-content: center;
   grid-area: lead;
+  margin: 48px 0 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    margin: 56px 0 0;
+  }
 }
