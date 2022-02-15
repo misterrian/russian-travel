@@ -1,19 +1,22 @@
 .intro {
   grid-area: intro;
-  width: 690px;
   margin: 92px 0 92px;
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    width: 690px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .intro {
-    width: 720px;
     margin: 88px 0 88px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro {
-    width: 288px;
     margin: 64px 0 64px;
   }
 }
