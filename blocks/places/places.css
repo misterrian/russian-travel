@@ -5,13 +5,13 @@
   gap: 80px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 738px) and (max-width: 993px) {
   .places {
     gap: 73px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 737px) {
   .places {
     gap: 50px;
   }

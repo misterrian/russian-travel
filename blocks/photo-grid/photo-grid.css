@@ -4,21 +4,21 @@
   display: grid;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1250px) {
   .photo-grid {
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 994px) and (max-width: 1249px) {
   .photo-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 14px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 738px) and (max-width: 993px) {
   .photo-grid {
     margin: 0 0 88px;
     grid-template-columns: 1fr 1fr;
@@ -26,16 +26,10 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 737px) {
   .photo-grid {
     margin: 0 0 64px;
     grid-template-columns: 1fr;
     gap: 12px;
   }
 }
-
-/* Второй вариант реализации этого блока через flex:
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 14px; */

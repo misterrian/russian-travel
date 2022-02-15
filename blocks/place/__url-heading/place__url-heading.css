@@ -7,7 +7,7 @@
   letter-spacing: 2px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 737px) {
   .place__url-heading {
     margin: 0 16px 0;
   }

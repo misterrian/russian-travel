@@ -8,7 +8,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 737px) {
   .intro__title {
     font-size: 32px;
     line-height: 35px;

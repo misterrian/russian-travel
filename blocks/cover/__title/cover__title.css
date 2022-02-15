@@ -10,7 +10,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 737px) {
   .cover__title {
     margin: 0 0 16px;
     width: 255px;

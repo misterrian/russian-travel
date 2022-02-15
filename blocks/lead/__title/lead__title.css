@@ -10,7 +10,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 737px){
   .lead__title {
     width: 288px;
     font-size: 40px;

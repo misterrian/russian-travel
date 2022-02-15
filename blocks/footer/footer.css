@@ -3,19 +3,19 @@
   justify-content: space-between;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (min-width: 994px) and (max-width: 1249px) {
   .footer {
     padding: 0 48px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 738px) and (max-width: 993px) {
   .footer {
     padding: 0 24px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 737px) {
   .footer {
     padding: 0 16px;
     flex-direction: column;
